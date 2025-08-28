@@ -203,8 +203,8 @@ const Portfolio = () => {
         {/* Statistics */}
         <div className="grid md:grid-cols-4 gap-8 mb-16">
           {[
-            { number: "10+", label: "Projects Completed", icon: Code },
-            { number: "3+", label: "Years Experience", icon: Calendar },
+            { number: "10+", label: "freelace Projects Completed", icon: Code },
+            { number: "3+", label: "Years Experience in cinematography", icon: Calendar },
             { number: "100%", label: "Client Satisfaction", icon: Award },
             { number: "∞", label: "Lines of Code", icon: Sparkles }
           ].map((stat, idx) => (

@@ -3,13 +3,13 @@ import { Briefcase, Calendar, ArrowUpRight, Star } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Freelance Software & Web Developer",
+      title: "Freelance Web Developer",
       company: "Self-Employed",
-      period: "2023 - Present",
+      period: "2025 - Present",
       type: "Freelance",
       description: "Building modern web applications and software solutions for clients worldwide.",
       achievements: [
-        "Developed 15+ responsive websites using React.js and Tailwind CSS",
+        "Developed 5+ responsive websites using React.js and Tailwind CSS",
         "Created full-stack applications with Firebase integration",
         "Implemented AI-powered features and automation tools",
         "Maintained 98% client satisfaction rate"
@@ -18,16 +18,16 @@ const Experience = () => {
       featured: true
     },
     {
-      title: "Freelance Social Media Manager & Content Strategist",
+      title: "Freelance Social Media Manager & Cinematographer",
       company: "Various Clients",
-      period: "2023 - Present",
+      period: "2024- Present",
       type: "Freelance",
       description: "Creating engaging content strategies and managing social media presence for businesses.",
       achievements: [
-        "Increased client social media engagement by 200%",
-        "Developed content calendars for 10+ brands",
+        "Increased client social media engagement",
+        "Developed content calendars",
         "Created viral video content with 100K+ views",
-        "Managed advertising campaigns with 15% average CTR"
+        "Managed advertising campaigns"
       ],
       technologies: ["CapCut", "Photoshop", "Analytics", "Campaign Management"],
       featured: false
@@ -37,10 +37,10 @@ const Experience = () => {
         "title": "Founder & Creative Technologist",
         "company": "finding.bipin",
         "period": "2024 - Present",
-        "type": "Cinematograohy",
+        "type": "Cinematography",
         "description": "Blending technology with storytelling — crafting digital experiences, cinematic edits, and innovative solutions that connect with people on a deeper level.",
         "achievements": [
-          "Built a personal brand with 500K+ reel views and 20M+ reach in just a few months",
+          "Built a personal page with 500K+ reel views and 20M+ reach in just a few months",
           "Created cinematic travel & storytelling content using only a smartphone",
          
           "Collaborated with creators, startups, and local businesses",

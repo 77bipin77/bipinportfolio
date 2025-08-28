@@ -2,21 +2,21 @@ import { Code, Camera, Palette, Database, Globe, Zap, Film, Mic, Layers, Monitor
 
 const Skills = () => {
   const technicalSkills = [
-    { name: "Python", level: 90, icon: Code, color: "primary" },
-    { name: "JavaScript", level: 85, icon: Code, color: "accent" },
-    { name: "React.js", level: 88, icon: Globe, color: "primary" },
-    { name: "C/C++", level: 80, icon: Code, color: "accent" },
-    { name: "HTML5 & CSS3", level: 92, icon: Monitor, color: "primary" },
-    { name: "Tailwind CSS", level: 90, icon: Palette, color: "accent" },
-    { name: "SQL & MySQL", level: 75, icon: Database, color: "primary" },
+    { name: "Python", level: 50, icon: Code, color: "primary" },
+    { name: "JavaScript", level: 55, icon: Code, color: "accent" },
+    { name: "React.js", level: 60, icon: Globe, color: "primary" },
+    { name: "C/C++", level: 50, icon: Code, color: "accent" },
+    { name: "HTML5 & CSS3", level: 70, icon: Monitor, color: "primary" },
+    { name: "Tailwind CSS", level: 60, icon: Palette, color: "accent" },
+    { name: "SQL & MySQL", level: 65, icon: Database, color: "primary" },
     { name: "Firebase", level: 82, icon: Zap, color: "accent" },
     { name: "AI Tools & Automation", level: 85, icon: Zap, color: "primary" },
-    { name: "Data Analytics", level: 78, icon: Database, color: "accent" }
+    { name: "Data Analytics", level: 70, icon: Database, color: "accent" }
   ];
 
   const cinematographySkills = [
     { name: "Mobile Cinematography", level: 95, icon: Camera, color: "accent" },
-    { name: "CapCut Editing", level: 92, icon: Film, color: "primary" },
+    { name: "CapCut Editing", level: 70, icon: Film, color: "primary" },
     { name: "Color Grading", level: 88, icon: Palette, color: "accent" },
     { name: "Pre-filter Mixing", level: 85, icon: Layers, color: "primary" },
     { name: "Natural Sound Integration", level: 90, icon: Mic, color: "accent" },

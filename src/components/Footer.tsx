@@ -52,9 +52,9 @@ const Footer = () => {
           <div className="border-t border-border pt-6">
             <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                <span>Made with</span>
-                <Sparkles className="w-4 h-4 text-primary" />
-                <span>by Bipin using React.js & Tailwind CSS</span>
+                <span>Made with ❤️ by Bipin using React.js & Tailwind CSS</span>
+                
+                
               </div>
 
               <div className="flex items-center gap-4">

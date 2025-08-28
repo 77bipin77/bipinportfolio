@@ -61,8 +61,8 @@ const Hero = () => {
 
           <div className="flex items-center gap-8 pt-4 animate-fade-in" style={{ animationDelay: '1000ms' }}>
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary">3+</div>
-              <div className="text-sm text-muted-foreground">Years Experience</div>
+              <div className="text-2xl font-bold text-primary">2+</div>
+              <div className="text-sm text-muted-foreground">Years Experience in Cinematography</div>
             </div>
             <div className="text-center">
               <div className="text-2xl font-bold text-accent">10+</div>

@@ -82,11 +82,8 @@ const Resume = () => {
             </div>
 
             {/* Quick Stats */}
-            <div className="grid md:grid-cols-4 gap-6 mb-8">
-              <div className="text-center">
-                <div className="text-2xl font-bold text-primary mb-1">3+</div>
-                <div className="text-sm text-muted-foreground">Years Experience</div>
-              </div>
+            <div className="grid md:grid-cols-3 gap-8 mb-8">
+              
               <div className="text-center">
                 <div className="text-2xl font-bold text-accent mb-1">10+</div>
                 <div className="text-sm text-muted-foreground">Projects</div>
