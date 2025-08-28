@@ -1,73 +1,95 @@
-# Welcome to your Lovable project
+# Bipin Chandra Pandey - Portfolio Website
 
-## Project info
+A modern, responsive portfolio website showcasing the work and skills of Bipin Chandra Pandey - Software Developer & Cinematographer.
 
-**URL**: https://lovable.dev/projects/6bbebcf6-1a01-47eb-ac0a-1f9560fa61f5
+## Features
 
-## How can I edit this code?
+- **Hero Section**: Introduction with profile picture and call-to-action buttons
+- **About Section**: Personal background and expertise
+- **Experience**: Professional journey and achievements
+- **Skills**: Technical and creative skills
+- **Services**: Offered services and expertise
+- **Portfolio**: Showcase of projects and work
+- **Resume**: Downloadable resume
+- **Contact**: Contact form and information
+- **Responsive Design**: Mobile-first approach with Tailwind CSS
 
-There are several ways of editing your application.
+## Technologies Used
 
-**Use Lovable**
+- **Frontend**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS with custom animations
+- **UI Components**: shadcn/ui component library
+- **Icons**: Lucide React
+- **Routing**: React Router DOM
+- **Forms**: React Hook Form with Zod validation
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6bbebcf6-1a01-47eb-ac0a-1f9560fa61f5) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js 18+ and npm
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd bipinportfolio
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Build for Production
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```sh
+npm run build
+npm run preview
+```
 
-**Use GitHub Codespaces**
+## Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/            # shadcn/ui components
+│   ├── Hero.tsx       # Hero section
+│   ├── About.tsx      # About section
+│   ├── Experience.tsx # Experience section
+│   ├── Skills.tsx     # Skills section
+│   ├── Services.tsx   # Services section
+│   ├── Portfolio.tsx  # Portfolio section
+│   ├── Resume.tsx     # Resume section
+│   ├── Contact.tsx    # Contact section
+│   └── Footer.tsx     # Footer
+├── pages/              # Page components
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+└── assets/             # Images and static files
+```
 
-## What technologies are used for this project?
+## Customization
 
-This project is built with:
+- Update profile information in component files
+- Replace profile picture in `src/assets/profile-picture.jpg`
+- Modify colors and styling in `tailwind.config.ts`
+- Add new sections by creating components and updating `src/pages/Index.tsx`
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Deployment
 
-## How can I deploy this project?
+The project can be deployed to any static hosting service:
 
-Simply open [Lovable](https://lovable.dev/projects/6bbebcf6-1a01-47eb-ac0a-1f9560fa61f5) and click on Share -> Publish.
+- Vercel
+- Netlify
+- GitHub Pages
+- AWS S3 + CloudFront
 
-## Can I connect a custom domain to my Lovable project?
+## License
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is open source and available under the [MIT License](LICENSE).
