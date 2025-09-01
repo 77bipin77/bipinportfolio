@@ -43,7 +43,7 @@ const About = () => {
                   technology and cinematography. My journey combines the precision of coding 
                   with the artistry of visual storytelling.
                 </p>
-                <p>while pursuing my B.A., I was also preparing for the Indian Army and cleared the physical and medical tests in my very first attempt. Unfortunately, with the introduction of the Agniveer scheme, my path took a different turn. Instead of giving up, I decided to channel my discipline and determination into technology—building a career in coding, software, and creative storytelling while continuously learning new skills to shape my future.</p>
+                <p>while pursuing my Bachlor of art(2018-2021).I was also preparing for the Indian Army and cleared the physical and medical tests in my very first attempt. Unfortunately, with the introduction of the Agniveer scheme, my path took a different turn. Instead of giving up, I decided to channel my discipline and determination into technology—building a career in coding, software, and creative storytelling while continuously learning new skills to shape my future.</p>
                 <p>
                   As a freelance developer and cinematographer since 2020, I've been crafting 
                   digital solutions and capturing compelling visual narratives. My work spans 
